@@ -1,0 +1,28 @@
+<html 
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:th="http://www.thymeleaf.org"
+     xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity6">
+    >
+
+    <head th:replace="~{layout/plantilla::head}">
+
+        <title>
+            LaPulpe
+        </title>    
+
+        <meta charset="UTF-8"/> <!-- Meta dato /-->
+        <link href="css/Estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+    <body>
+
+        <header th:replace="~{layout/plantilla::header}"/>
+        <section th:replace="~{pruebas/fragmentos::tabsCategorias}"/>
+        <section th:replace="~{pruebas/fragmentos::listadoProductos}"/>
+
+
+        <footer th:replace="~{layout/plantilla::footer}"/>
+
+    </body>
+
+</html> <!-- Toda etiqueta se cierra con /-->

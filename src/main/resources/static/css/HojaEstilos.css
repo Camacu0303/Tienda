@@ -1,0 +1,151 @@
+
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: aquamarine;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.alerta{
+    background-color: red;
+    color: yellow;
+    font-weight: bold;
+
+
+
+}
+
+
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+
+
+
+
+}
+
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 100px;
+    
+    width: 10%;
+    float:left;
+
+
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+}
+
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 100px;
+    color: black;
+
+
+}
+
+.nav-menu-link{
+
+    padding: 8px 12px;
+    border-radius: 10px;
+
+}
+
+.nav-menu-link:hover{
+
+    background-color: #024070;
+    transition-delay: 0.1s;
+    transition: 0.5s;
+
+}
+
+
+.navegacion{
+
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    float: right;
+}
+
+
+.encabezado{
+    position: fixed;
+    background-color: blue;
+    color: white;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+
+
+}
+
+
+aside{
+    position: fixed;
+    background-color: aquamarine;
+    color: black;
+    top: 100px;
+    left: 0;
+    height: 25px;
+    width: 20%;
+
+}
+
+
+section{
+    position: fixed;
+    overflow-y: scroll;
+    padding: 1%;
+    background-color: beige;
+    color: black;
+    top: 100px;
+    left: 20%;
+    bottom: 25px;
+    width: 80%;
+
+}
+
+
+footer {
+    position: fixed;
+    text-align: center;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    left: 0;
+    height: 25px;
+    width: 100%;
+}
+
+
+
+
